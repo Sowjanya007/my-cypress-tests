@@ -20,7 +20,7 @@ it.only('login test',function()
         const fields = [
           { selector: '#firstname', error: '#firstname-error', message: 'This is a required field.', value: 'Joohnnn' },
           { selector: '#lastname', error: '#lastname-error', message: 'This is a required field.', value: 'Doee' },
-          { selector: '#email_address', error: '#email_address-error', message: 'This is a required field.', value: 'johnn.dooeee3@example.com' },
+          { selector: '#email_address', error: '#email_address-error', message: 'This is a required field.', value: 'johhnn.doee3@example.com' },
           { selector: '#password', error: '#password-error', message: 'This is a required field.', value: 'joe@12345' },
          // { selector: '#password', error: '#password-error', message: 'Minimum length of this field must be equal or greater than 8 symbols. Leading and trailing spaces will be ignored.', value: 'joe@12345' },
           { selector: '#password-confirmation', error: '#password-confirmation-error', message: 'This is a required field.', value: 'joe@12345' },
